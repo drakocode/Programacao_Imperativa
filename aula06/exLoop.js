@@ -4,11 +4,9 @@ for (let lup=1; lup<=5; lup++){
 }
 
 console.log('parte 2, números impares:')
-//não consegui fazer
-for(let imp=1; imp<=9; imp++){
-    if(imp=1,imp=3,imp=5,imp=7,imp=9){
+//consegui fazer pós aula, tinha errado a sintaxe no imp=imp+2
+for(let imp=1; imp<=9; imp=imp+2){
         console.log('Número impar: ', imp)
-    }
 }
 console.log('parte 2, números impares com switch:')
 //fiz uma gambiarra
